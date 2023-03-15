@@ -6,6 +6,11 @@
  * virtual：用於宣告一個方法、屬性或索引器是虛擬的，允許在衍生類別中進行方法的重寫。
  * abstract：用於宣告一個方法、屬性或索引器是抽象的，必須在衍生類別中進行實作，否則衍生類別也必須是抽象的。
  * override：用於在衍生類別中重寫基底類別的虛擬方法。
+ * 
+ * abstract vs virtual
+ *      abstract 必須被子類實現，而virtual 可以被子類覆寫，也可以不被覆寫。
+ *      abstract 必須定義在抽象類別（Abstract class）中，而虛擬方法可以定義在普通類別中。
+ *  請參考 abstractVSvirtual .cs
  */
 
 /*
